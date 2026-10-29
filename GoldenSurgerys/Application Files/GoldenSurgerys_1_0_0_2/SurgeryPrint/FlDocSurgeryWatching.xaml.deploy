@@ -1,0 +1,201 @@
+<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              FontSize="14" FontFamily="Georgia"
+                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+              xmlns:xrd="clr-namespace:CodeReason.Reports.Document;assembly=CodeReason.Reports"
+              PageHeight="29.7cm" PageWidth="21cm" ColumnWidth="21cm"  FlowDirection="RightToLeft" >
+
+    <xrd:ReportProperties>
+        <xrd:ReportProperties.ReportName>العمليات القادمة</xrd:ReportProperties.ReportName>
+        <xrd:ReportProperties.ReportTitle>عدد العمليات</xrd:ReportProperties.ReportTitle>
+    </xrd:ReportProperties>
+
+    <xrd:SectionReportFooter PageFooterHeight="2" Padding="10,0,10,10" FontSize="12">
+        <Table CellSpacing="0">
+            <Table.Columns>
+                <TableColumn Width="*" />
+                <TableColumn Width="*" />
+            </Table.Columns>
+            <TableRowGroup>
+                <TableRow>
+                    <TableCell>
+                        <Paragraph>
+                            <xrd:InlineDocumentValue PropertyName="PrintDate"   Format="dd.MM.yyyy HH:mm:ss" />
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph TextAlignment="Right">
+                            Page
+                            <xrd:InlineContextValue PropertyName="PageNumber" FontWeight="Bold" /> of
+                            <xrd:InlineContextValue PropertyName="PageCount" FontWeight="Bold" />
+                        </Paragraph>
+                    </TableCell>
+                </TableRow>
+            </TableRowGroup>
+        </Table>
+    </xrd:SectionReportFooter>
+    <Section Margin="10,0,0,10" FontSize="12">
+        <Paragraph FontSize="20" FontWeight="Bold">العمليات القادمة</Paragraph>
+        
+        <Table CellSpacing="0" BorderBrush="Black" BorderThickness="0.02cm">
+            <Table.Resources>
+                <!-- Style for header/footer rows. -->
+                <Style x:Key="headerFooterRowStyle" TargetType="{x:Type TableRowGroup}">
+                    <Setter Property="FontWeight" Value="DemiBold"/>
+                    <Setter Property="FontSize" Value="16"/>
+                    <Setter Property="Background" Value="LightGray"/>
+                </Style>
+
+                <!-- Style for data rows. -->
+                <Style x:Key="dataRowStyle" TargetType="{x:Type TableRowGroup}">
+                    <Setter Property="FontSize" Value="15"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="FontFamily" Value="Arial"/>
+                </Style>
+
+                <!-- Style for data cells. -->
+                <Style TargetType="{x:Type TableCell}">
+                    <Setter Property="Padding" Value="0.1cm"/>
+                    <Setter Property="BorderBrush" Value="Black"/>
+                    <Setter Property="BorderThickness" Value="0.01cm"/>
+                </Style>
+            </Table.Resources>
+
+            <Table.Columns>
+                <TableColumn Width="0.5*" />
+                <TableColumn Width="1.1*" />
+                <TableColumn Width="1.5*" />
+                <TableColumn Width="0.5*" />
+                <TableColumn Width="0.7*" />
+                <TableColumn Width="1*" />
+                <TableColumn Width="1*" />
+                <TableColumn Width="0.5*" />
+                <TableColumn Width="0.7*" />
+                <TableColumn Width="1*" />
+                <TableColumn Width="1*" />
+            </Table.Columns>
+            <TableRowGroup Style="{StaticResource headerFooterRowStyle}">
+                <TableRow>
+                    <TableCell>
+                        <Paragraph TextAlignment="Center" FontSize="13">
+                            <Bold>الرقم</Bold>
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph TextAlignment="Center" FontSize="13">
+                            <Bold>التاريخ</Bold>
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph TextAlignment="Center" FontSize="13">
+                            <Bold>اسم المريض</Bold>
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph TextAlignment="Center" FontSize="13">
+                            <Bold>العمر</Bold>
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph TextAlignment="Center" FontSize="13">
+                            <Bold>رقم الإضبارة</Bold>
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph TextAlignment="Center" FontSize="13">
+                            <Bold>المستشفى</Bold>
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph TextAlignment="Center" FontSize="13">
+                            <Bold>العملية</Bold>
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph TextAlignment="Center" FontSize="13">
+                            <Bold>العين</Bold>
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph TextAlignment="Center" FontSize="13">
+                            <Bold>العدسة</Bold>
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph TextAlignment="Center" FontSize="13">
+                            <Bold>أمراض مزمة</Bold>
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph TextAlignment="Center" FontSize="13">
+                            <Bold>ملاحظات</Bold>
+                        </Paragraph>
+                    </TableCell>
+                </TableRow>
+            </TableRowGroup>
+            <!--Style="{StaticResource dataRowStyle}"-->
+            <TableRowGroup >
+                <xrd:TableRowForDataTable TableName="Ean">
+                    <TableCell>
+                        <Paragraph   FontSize="15">
+                            <xrd:InlineTableCellValue PropertyName="Num" />
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph   FontSize="15" FontWeight="Normal">
+                            <xrd:InlineTableCellValue PropertyName="DateString"  />
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph   TextAlignment="Center" FontSize="18" FontWeight="Bold">
+                            <xrd:InlineTableCellValue PropertyName="DnXn" />
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph   TextAlignment="Center" FontSize="15"  FontWeight="Bold">
+                            <xrd:InlineTableCellValue PropertyName="Age" />
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph   TextAlignment="Center" FontSize="15"  FontWeight="Bold">
+                            <xrd:InlineTableCellValue PropertyName="ClinicID" />
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph    TextAlignment="Center" FontSize="15"  FontWeight="Bold">
+                            <xrd:InlineTableCellValue PropertyName="HospitalName" />
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph    TextAlignment="Center" FontSize="15"  FontWeight="Bold">
+                            <xrd:InlineTableCellValue PropertyName="SurgeryName" />
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph    TextAlignment="Center" FontSize="15"  FontWeight="Bold">
+                            <xrd:InlineTableCellValue PropertyName="OdOuOs" />
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph    TextAlignment="Center" FontSize="15"  FontWeight="Bold">
+                            <xrd:InlineTableCellValue PropertyName="Lense" />
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph    TextAlignment="Center" FontSize="15"  FontWeight="Bold">
+                            <xrd:InlineTableCellValue PropertyName="ChronicDeisease" />
+                        </Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph    TextAlignment="Center" FontSize="15"  FontWeight="Bold">
+                            <xrd:InlineTableCellValue PropertyName="Note" />
+                        </Paragraph>
+                    </TableCell>
+                </xrd:TableRowForDataTable>
+            </TableRowGroup>
+        </Table>
+        <Paragraph TextAlignment="Right">
+            عدد العمليات
+            <xrd:InlineDocumentValue PropertyName="CNT" FontWeight="Bold" /> عملية
+        </Paragraph>
+    </Section>
+</FlowDocument>
