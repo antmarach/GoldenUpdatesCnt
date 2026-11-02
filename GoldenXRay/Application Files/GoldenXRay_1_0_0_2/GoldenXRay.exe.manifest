@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="GoldenXRay.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="GoldenXRay.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="surgeon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -43,26 +43,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClsLibraryMain.dll" size="21504">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClsLibraryMain.dll" size="20480">
       <assemblyIdentity name="ClsLibraryMain" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>FyCndKcEn8nSNO4SsPIugoeCmC7AOf7Z+K+xs0m73uo=</dsig:DigestValue>
+        <dsig:DigestValue>PksTJUwkRKKlfUFb0G8MDdOBPLYDPLWs987vRKsMbos=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CodeReason.Reports.dll" size="54272">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CodeReason.Reports.dll" size="49152">
       <assemblyIdentity name="CodeReason.Reports" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>FrumLtQ2M4C8iU7yB5RE4SGyBv/0kUOwa2Q2A7qjGIg=</dsig:DigestValue>
+        <dsig:DigestValue>JgI6GDerQl31JvQ9u4XT65tNd2d5EcKZyyg1CPSN1u8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -103,110 +103,110 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenAbout.exe" size="1205248">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenAbout.exe" size="1200640">
       <assemblyIdentity name="GoldenAbout" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>sle8QgcGerzqQ0TMsgZtL1jkyT9NTzOE1d+YpH35Fxg=</dsig:DigestValue>
+        <dsig:DigestValue>8Sjt21kVj0S6B3ITzZRA8rNXIztAD6bIx8LEekKmQbI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenListener.dll" size="39424">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenListener.dll" size="37888">
       <assemblyIdentity name="GoldenListener" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>9HGbLp3kdWJcC0m/pAKOf779mIjzwgY6auwiScDAgdw=</dsig:DigestValue>
+        <dsig:DigestValue>cyJpAWw2yEsyazfQpjSLX7wssX1vPCI+zwH2dy9uUxg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenManagerModel.dll" size="32768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenManagerModel.dll" size="30208">
       <assemblyIdentity name="GoldenManagerModel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Jp+0tcS43a4+3Jk7IwXcZNZWPrr43KzKdZYtBcgRbr8=</dsig:DigestValue>
+        <dsig:DigestValue>49S6CoOp9LwVtgnSunVEUe6JuYFHh9C5ukuL2u4ypSk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenModel.dll" size="15360512">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenModel.dll" size="15252480">
       <assemblyIdentity name="GoldenModel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>E8JkBxSvjXuy6Ml/bkjU0fDKOfCxYKlK8gKtUQpxh3I=</dsig:DigestValue>
+        <dsig:DigestValue>rW02jJXzYqyBA08ipCmQPlHiVAqerboS6nrHayj3V1c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenService.dll" size="129536">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenService.dll" size="121856">
       <assemblyIdentity name="GoldenService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>eXiOqKOaTU3gUVHekPJ/+XDIM7mV4YpP7uUTRy+BxI8=</dsig:DigestValue>
+        <dsig:DigestValue>49p6SY6XJYV96hwpqayGUeLPBcpF9jWZpqB+t/47mwA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenShare.exe" size="18081792">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenShare.exe" size="16983040">
       <assemblyIdentity name="GoldenShare" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Q66iixJ8Tum53QLLhGm9LM6LVPDOPQiemMgbEUsf590=</dsig:DigestValue>
+        <dsig:DigestValue>HMr7nSMifod0fzteP6qbsz6aVdLoisx4xRs+9J/kdXc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenToMobileService.dll" size="25600">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenToMobileService.dll" size="24576">
       <assemblyIdentity name="GoldenToMobileService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>mLeHA01G9Wpw4qW87pARYreb+S9HfoeLUTPoiZClop4=</dsig:DigestValue>
+        <dsig:DigestValue>31klHhWn9aXKGC/gYMVdy0IGJds2zX84aJ3ycF155/g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenWebModel.dll" size="267264">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenWebModel.dll" size="263680">
       <assemblyIdentity name="GoldenWebModel" version="1.0.0.0" publicKeyToken="D5659654739D876B" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>e3IUZcMJ+u3Wz7R+opAcMEUP+CgtHcyPu/t+A96tcbM=</dsig:DigestValue>
+        <dsig:DigestValue>hDzfkyMIok29BTmMh0TfoBYXWlASSFhS2RiJGHy1KRQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenXRay.exe" size="224256">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenXRay.exe" size="213504">
       <assemblyIdentity name="GoldenXRay" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>HlGT5L0qqW/GyIYHZv3JwAJ1lW8hofmVjM4zQTG0WZI=</dsig:DigestValue>
+        <dsig:DigestValue>hXKY8Rx97pYuT81ou0V5YFvkbUIvek/hTitoejFGNko=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -391,6 +391,30 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OxyPlot.Wpf.dll" size="37376">
+      <assemblyIdentity name="OxyPlot.Wpf" version="2.2.0.0" publicKeyToken="75E952BA404CDBB0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UM2uATwFuLoPaO2y3IoXO5PuXiFM0m5XLW/VOYKUfFY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OxyPlot.Wpf.Shared.dll" size="41472">
+      <assemblyIdentity name="OxyPlot.Wpf.Shared" version="2.2.0.0" publicKeyToken="75E952BA404CDBB0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XUNhcHcSMGfLyTZtzoZNQVuzah97+o77fkCuTPt5vz4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Net.Http.Formatting.dll" size="178808">
       <assemblyIdentity name="System.Net.Http.Formatting" version="5.2.7.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -427,14 +451,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WPFColorPickerLib.dll" size="408576">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WPFColorPickerLib.dll" size="404480">
       <assemblyIdentity name="WPFColorPickerLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>x2DWlf/05ShweyYanX2V1sgdrSKc8SNeFpAStP+GExE=</dsig:DigestValue>
+        <dsig:DigestValue>nR6Nh0hLZ45GzZF0OteCL1Lz2dis1s4x9HNFZoi7kG4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
