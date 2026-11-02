@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="GoldenPH.exe" version="1.0.0.1" publicKeyToken="74c9f79bb24b6dd0" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="GoldenPH.exe" version="1.0.0.2" publicKeyToken="74c9f79bb24b6dd0" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="surgeon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -43,26 +43,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClsLibraryMain.dll" size="21504">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClsLibraryMain.dll" size="20480">
       <assemblyIdentity name="ClsLibraryMain" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>FyCndKcEn8nSNO4SsPIugoeCmC7AOf7Z+K+xs0m73uo=</dsig:DigestValue>
+        <dsig:DigestValue>PksTJUwkRKKlfUFb0G8MDdOBPLYDPLWs987vRKsMbos=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CodeReason.Reports.dll" size="54272">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CodeReason.Reports.dll" size="49152">
       <assemblyIdentity name="CodeReason.Reports" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>FrumLtQ2M4C8iU7yB5RE4SGyBv/0kUOwa2Q2A7qjGIg=</dsig:DigestValue>
+        <dsig:DigestValue>JgI6GDerQl31JvQ9u4XT65tNd2d5EcKZyyg1CPSN1u8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -103,122 +103,122 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenAbout.exe" size="1205248">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenAbout.exe" size="1200640">
       <assemblyIdentity name="GoldenAbout" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>sle8QgcGerzqQ0TMsgZtL1jkyT9NTzOE1d+YpH35Fxg=</dsig:DigestValue>
+        <dsig:DigestValue>8Sjt21kVj0S6B3ITzZRA8rNXIztAD6bIx8LEekKmQbI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenListener.dll" size="39424">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenListener.dll" size="37888">
       <assemblyIdentity name="GoldenListener" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>9HGbLp3kdWJcC0m/pAKOf779mIjzwgY6auwiScDAgdw=</dsig:DigestValue>
+        <dsig:DigestValue>cyJpAWw2yEsyazfQpjSLX7wssX1vPCI+zwH2dy9uUxg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenManagerModel.dll" size="32768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenManagerModel.dll" size="30208">
       <assemblyIdentity name="GoldenManagerModel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Jp+0tcS43a4+3Jk7IwXcZNZWPrr43KzKdZYtBcgRbr8=</dsig:DigestValue>
+        <dsig:DigestValue>49S6CoOp9LwVtgnSunVEUe6JuYFHh9C5ukuL2u4ypSk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenModel.dll" size="15360512">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenModel.dll" size="15252480">
       <assemblyIdentity name="GoldenModel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>E8JkBxSvjXuy6Ml/bkjU0fDKOfCxYKlK8gKtUQpxh3I=</dsig:DigestValue>
+        <dsig:DigestValue>rW02jJXzYqyBA08ipCmQPlHiVAqerboS6nrHayj3V1c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenPH.exe" size="129920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenPH.exe" size="128896">
       <assemblyIdentity name="GoldenPH" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>qPs8MoTtCONuhq8Fyv100jfWqQSQz3AqQiaEI9fbItQ=</dsig:DigestValue>
+        <dsig:DigestValue>atUXFWP9cA0zzwqwE8N3Uz09BIIpkrADPkd8nNzDATA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenPrescription.exe" size="747008">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenPrescription.exe" size="653312">
       <assemblyIdentity name="GoldenPrescription" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WeTfa0b6s3YN/aljSqKTUBuR1T389vsxkiJxhC8+VL4=</dsig:DigestValue>
+        <dsig:DigestValue>Db+R8p/+BuyvM3dng+q6sGL0AQ53eX4ISP4xMaob0Fs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenService.dll" size="129536">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenService.dll" size="121856">
       <assemblyIdentity name="GoldenService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>eXiOqKOaTU3gUVHekPJ/+XDIM7mV4YpP7uUTRy+BxI8=</dsig:DigestValue>
+        <dsig:DigestValue>49p6SY6XJYV96hwpqayGUeLPBcpF9jWZpqB+t/47mwA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenShare.exe" size="18081792">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenShare.exe" size="16983040">
       <assemblyIdentity name="GoldenShare" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+0EO6GvdNHHUWQEaOSjtapgiT/aQvOtspMWQwKfM310=</dsig:DigestValue>
+        <dsig:DigestValue>HMr7nSMifod0fzteP6qbsz6aVdLoisx4xRs+9J/kdXc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenToMobileService.dll" size="25600">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenToMobileService.dll" size="24576">
       <assemblyIdentity name="GoldenToMobileService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>mLeHA01G9Wpw4qW87pARYreb+S9HfoeLUTPoiZClop4=</dsig:DigestValue>
+        <dsig:DigestValue>31klHhWn9aXKGC/gYMVdy0IGJds2zX84aJ3ycF155/g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenWebModel.dll" size="267264">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoldenWebModel.dll" size="263680">
       <assemblyIdentity name="GoldenWebModel" version="1.0.0.0" publicKeyToken="D5659654739D876B" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>e3IUZcMJ+u3Wz7R+opAcMEUP+CgtHcyPu/t+A96tcbM=</dsig:DigestValue>
+        <dsig:DigestValue>hDzfkyMIok29BTmMh0TfoBYXWlASSFhS2RiJGHy1KRQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -403,14 +403,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PhoneBook.exe" size="86016">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OxyPlot.Wpf.dll" size="37376">
+      <assemblyIdentity name="OxyPlot.Wpf" version="2.2.0.0" publicKeyToken="75E952BA404CDBB0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UM2uATwFuLoPaO2y3IoXO5PuXiFM0m5XLW/VOYKUfFY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OxyPlot.Wpf.Shared.dll" size="41472">
+      <assemblyIdentity name="OxyPlot.Wpf.Shared" version="2.2.0.0" publicKeyToken="75E952BA404CDBB0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XUNhcHcSMGfLyTZtzoZNQVuzah97+o77fkCuTPt5vz4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PhoneBook.exe" size="75776">
       <assemblyIdentity name="PhoneBook" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nDa3aZk1cnkS2NQTmncCDMEUCRwgBVeIz4VBdki7v4A=</dsig:DigestValue>
+        <dsig:DigestValue>6zfmpHcV7oIhSmhb8M8NoABjKVU/L32LJKmqqRjTWc8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -451,14 +475,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WPFColorPickerLib.dll" size="408576">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WPFColorPickerLib.dll" size="404480">
       <assemblyIdentity name="WPFColorPickerLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>x2DWlf/05ShweyYanX2V1sgdrSKc8SNeFpAStP+GExE=</dsig:DigestValue>
+        <dsig:DigestValue>nR6Nh0hLZ45GzZF0OteCL1Lz2dis1s4x9HNFZoi7kG4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -504,4 +528,4 @@
       <dsig:DigestValue>ef3+K4vTDRZUGX/mhyLCjMETIUI8SmU7+dij4Pdsh1M=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=ANTOLAPTOP\Lenovo" issuerKeyHash="3b60431dfc13d41eff065970f17d0c271e1ba4d2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>P4zxuPeIoxze5wgNAKnsxrWv7RHc2NyLn6TeUd+5AZk=</DigestValue></Reference></SignedInfo><SignatureValue>h0s7BRvpIqgqHmOQn35gYzA2loNmHJnLZoNey+HS8cNdfTsHvjNV1/X4rOWpwimEK1LnqOEe7HV/GeQiKSKqMahFI6ra1Z6LffwVDTgT5PHhsTgyg5oO5SPtLeD34UrNXc3yzOIiSa5i33U7GlE2qbQpxneTly+GPNuEDIzF3PLZ1674Du1U+5K9JpJecbEkKIGjkrLazdpdpXeysYP4TAEy3PW3e7xNnorexz249XXX6HX2tF92du8qb6gKLgzld7kKeyibkO/2zfQRk7R9RpP6Tq6xJja26N2drsj+wActzjgIemCb0WWHjeCj8dC2VKxyq9CkpQyd3RaA+pluXA==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wWWHooqupslpEcLuMnwLZ/zf+Xo0A+8Af+WlrqN5cTO61/rzk7Av6f5Pme8nc2RQnzuobrOARxzwx7XPVExzN2qZKQmvGIPD+WlLceQ1ZsrSHzxvSSRQ+/ZLM3qo9w5mZKQbv/6iMPxq4ny+Tga5hcfoHSZml1yFA5zqTYMrkB7yk5Th3ZpAabi7wA85BHmrBGZ42wE7N2Jv/wdkZaVR+oika+zgkfH7wKtKx7duI0eKqpKvGCuZdWziHiK85TRRy4sVmxjgZgXnCuL9yqojyn4U2egjpElK1aqQlMg5F7mpJZzUfBHA3PszGNdTDogyRGcM4DC6/xHDJ4cfNPfALQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9901b9df51dea49f8bdcd8dc11edafb5c6eca9000d08e7de1ca388f7b8f18c3f" Description="" Url=""><as:assemblyIdentity name="GoldenPH.exe" version="1.0.0.1" publicKeyToken="74c9f79bb24b6dd0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ANTOLAPTOP\Lenovo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ptowHy5D0FA4/q6hBs8dQ9hJviFjmB7UCtFAaCjm7EE=</DigestValue></Reference></SignedInfo><SignatureValue>vLeTiamNk8gg3R7d2yrnBnels8S5awZYBdKrDm9k6R5h6V3t3QLs1AJaOuMrTHDK0+mE/+ycePIbIC2gdM4Uvc/K2R9UrWgPEyAxfPFV8v2AvuZj4/rrfZZ2ayltSiRJljrn41q9epOL7B92h46u+Uboo6o9RlBWmYj9Y7cnI5pQhbBXR6hq5xQkFisN16fSKoo4nrZKhEZZ53YvoEZJfxSKhte0Vk1FCbm4RCqvd4Suurbi713HFxg7NauVwtiPNVzC6s6FLlp9r1r8BFeSgyXd4gE577SS+0krGFaOmHciqogOq4/tU1vavHyotdjxWwjuX2ndswbVVXSKWw594w==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wWWHooqupslpEcLuMnwLZ/zf+Xo0A+8Af+WlrqN5cTO61/rzk7Av6f5Pme8nc2RQnzuobrOARxzwx7XPVExzN2qZKQmvGIPD+WlLceQ1ZsrSHzxvSSRQ+/ZLM3qo9w5mZKQbv/6iMPxq4ny+Tga5hcfoHSZml1yFA5zqTYMrkB7yk5Th3ZpAabi7wA85BHmrBGZ42wE7N2Jv/wdkZaVR+oika+zgkfH7wKtKx7duI0eKqpKvGCuZdWziHiK85TRRy4sVmxjgZgXnCuL9yqojyn4U2egjpElK1aqQlMg5F7mpJZzUfBHA3PszGNdTDogyRGcM4DC6/xHDJ4cfNPfALQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDCDCCAfCgAwIBAgIQJh+g+2WEtKxB+Y1A8wfNwTANBgkqhkiG9w0BAQsFADAcMRowGAYDVQQDDBFBTlRPTEFQVE9QXExlbm92bzAeFw0yNjEwMTcxMDE0NTFaFw0zMTEwMTcxMDI0NTFaMBwxGjAYBgNVBAMMEUFOVE9MQVBUT1BcTGVub3ZvMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwWWHooqupslpEcLuMnwLZ/zf+Xo0A+8Af+WlrqN5cTO61/rzk7Av6f5Pme8nc2RQnzuobrOARxzwx7XPVExzN2qZKQmvGIPD+WlLceQ1ZsrSHzxvSSRQ+/ZLM3qo9w5mZKQbv/6iMPxq4ny+Tga5hcfoHSZml1yFA5zqTYMrkB7yk5Th3ZpAabi7wA85BHmrBGZ42wE7N2Jv/wdkZaVR+oika+zgkfH7wKtKx7duI0eKqpKvGCuZdWziHiK85TRRy4sVmxjgZgXnCuL9yqojyn4U2egjpElK1aqQlMg5F7mpJZzUfBHA3PszGNdTDogyRGcM4DC6/xHDJ4cfNPfALQIDAQABo0YwRDAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwHQYDVR0OBBYEFDtgQx38E9Qe/wZZcPF9DCceG6TSMA0GCSqGSIb3DQEBCwUAA4IBAQAQ84xRUqvcJ1eepe1vPzj1dONIytpEzUDNIG7YmyzXWSsZjaC9lqkBGcFXNvKok5cBRqKE1gPo9w2NWer3TNOKgZ+U7MmcwjVypP4nwaEVfq8um/9LAMD2DBd+q3hcDUf/yfwRkqOcIqImH63s1X48QxME1I/H1PCgouN0AXw65KZETRY9lbvoyR6zuV/d1xsUsPoGY6aHyq5CnQeyy24JA16FkEvnNIZBnrdTRff2tDrhS4epGrKoH/tiaDtfoWESR/CjWSRhcVh5NuMYvYzMcwOS4UZZJ32OIbRitUJAVVe8v1SdLhhUlZ0sERymGzuMFZsb4GiDUV6aUqzfRVeD</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=ANTOLAPTOP\Lenovo" issuerKeyHash="3b60431dfc13d41eff065970f17d0c271e1ba4d2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8zLoFEoTu9biVoAm9gaPX0/sIIEwxy2CfqzGexr8kPI=</DigestValue></Reference></SignedInfo><SignatureValue>iIwUgq19wWeSufnzSxQxkYnSmemahiq6Rz4hnQsjGOe+7Wy5j5xRenMQSTmrd3akGsIp02LZ8lR2oZrxoI8zs4Cn2e8RHf0jBw+CPQH4FFLmgQ7TFu1/R7cbhXYhTeyID7WsWIm/ZWRwnaJokQvTBYRsEepSCQX7uT9kRdss42z47PbLtlUyUeZqvE8AininxXwp2Ipo3urmgVNX4VN2qGEulQPiDafQOPRphsWrJhzgS4+oH1CAHvLZ4qU+Nt5FWgXGhllb85U8exYHh9DnY+nmr3kpBaqtkfZo2YYydgojHLY2/liRKBnJezhxt6NRvjVib/+vVo/qaxRzL8oO1g==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wWWHooqupslpEcLuMnwLZ/zf+Xo0A+8Af+WlrqN5cTO61/rzk7Av6f5Pme8nc2RQnzuobrOARxzwx7XPVExzN2qZKQmvGIPD+WlLceQ1ZsrSHzxvSSRQ+/ZLM3qo9w5mZKQbv/6iMPxq4ny+Tga5hcfoHSZml1yFA5zqTYMrkB7yk5Th3ZpAabi7wA85BHmrBGZ42wE7N2Jv/wdkZaVR+oika+zgkfH7wKtKx7duI0eKqpKvGCuZdWziHiK85TRRy4sVmxjgZgXnCuL9yqojyn4U2egjpElK1aqQlMg5F7mpJZzUfBHA3PszGNdTDogyRGcM4DC6/xHDJ4cfNPfALQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f290fc1a7bc6ac7e822dc7308120ec4f5f8f06f6268056e2d6bb134a14e832f3" Description="" Url=""><as:assemblyIdentity name="GoldenPH.exe" version="1.0.0.2" publicKeyToken="74c9f79bb24b6dd0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ANTOLAPTOP\Lenovo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kZtcz3RYoFdbeiYXNqgi6XJXZuVfaKQk6LnyHf5KqOo=</DigestValue></Reference></SignedInfo><SignatureValue>lB8d31xMYU7gzQ1EX3B1hyfEEDfcFG+7mHqEdf+2XwOKO7Ip+4axj3eysLIHAyG4niiotcaMlYqTIIQpMxXQe+0NsfG/apySxgI9UB3NkM+JGZQklj/UB9UcTEFtuRcrERs1Wh0A2feRkJWmZmHi4JOQHybu25GA5uAwp4/iGqa4uQbIwXK5C6giO90YGrLhaBDUFYGvn3GiDNm/Vafrwj1UL/BqHH/VED2aS21ykEcAch/Ic2EMw3uefCK4du1dXJ5opJWtRgzjs38BtGMasQmP9kKYNdNE4hd6yme+ePOjpWQWgVUwYQ4MtW9LOVWrWWMzY3N7sqacOBiJoZjQnw==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wWWHooqupslpEcLuMnwLZ/zf+Xo0A+8Af+WlrqN5cTO61/rzk7Av6f5Pme8nc2RQnzuobrOARxzwx7XPVExzN2qZKQmvGIPD+WlLceQ1ZsrSHzxvSSRQ+/ZLM3qo9w5mZKQbv/6iMPxq4ny+Tga5hcfoHSZml1yFA5zqTYMrkB7yk5Th3ZpAabi7wA85BHmrBGZ42wE7N2Jv/wdkZaVR+oika+zgkfH7wKtKx7duI0eKqpKvGCuZdWziHiK85TRRy4sVmxjgZgXnCuL9yqojyn4U2egjpElK1aqQlMg5F7mpJZzUfBHA3PszGNdTDogyRGcM4DC6/xHDJ4cfNPfALQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDCDCCAfCgAwIBAgIQJh+g+2WEtKxB+Y1A8wfNwTANBgkqhkiG9w0BAQsFADAcMRowGAYDVQQDDBFBTlRPTEFQVE9QXExlbm92bzAeFw0yNjEwMTcxMDE0NTFaFw0zMTEwMTcxMDI0NTFaMBwxGjAYBgNVBAMMEUFOVE9MQVBUT1BcTGVub3ZvMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwWWHooqupslpEcLuMnwLZ/zf+Xo0A+8Af+WlrqN5cTO61/rzk7Av6f5Pme8nc2RQnzuobrOARxzwx7XPVExzN2qZKQmvGIPD+WlLceQ1ZsrSHzxvSSRQ+/ZLM3qo9w5mZKQbv/6iMPxq4ny+Tga5hcfoHSZml1yFA5zqTYMrkB7yk5Th3ZpAabi7wA85BHmrBGZ42wE7N2Jv/wdkZaVR+oika+zgkfH7wKtKx7duI0eKqpKvGCuZdWziHiK85TRRy4sVmxjgZgXnCuL9yqojyn4U2egjpElK1aqQlMg5F7mpJZzUfBHA3PszGNdTDogyRGcM4DC6/xHDJ4cfNPfALQIDAQABo0YwRDAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwHQYDVR0OBBYEFDtgQx38E9Qe/wZZcPF9DCceG6TSMA0GCSqGSIb3DQEBCwUAA4IBAQAQ84xRUqvcJ1eepe1vPzj1dONIytpEzUDNIG7YmyzXWSsZjaC9lqkBGcFXNvKok5cBRqKE1gPo9w2NWer3TNOKgZ+U7MmcwjVypP4nwaEVfq8um/9LAMD2DBd+q3hcDUf/yfwRkqOcIqImH63s1X48QxME1I/H1PCgouN0AXw65KZETRY9lbvoyR6zuV/d1xsUsPoGY6aHyq5CnQeyy24JA16FkEvnNIZBnrdTRff2tDrhS4epGrKoH/tiaDtfoWESR/CjWSRhcVh5NuMYvYzMcwOS4UZZJ32OIbRitUJAVVe8v1SdLhhUlZ0sERymGzuMFZsb4GiDUV6aUqzfRVeD</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
